@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Home from './Screens/Home/Home.js';
+import Dashboard from './Screens/Dashboard/Dashboard.js';
+import ContactUs from './Screens/ContactUs/ContactUs.js';
+import Signin from './Screens/Signin/Signin.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ContactUs />
   </React.StrictMode>,
   document.getElementById('root')
 );
