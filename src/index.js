@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ContactUs />
+    <Dashboard />
   </React.StrictMode>,
   document.getElementById('root')
 );

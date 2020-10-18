@@ -1,5 +1,5 @@
 import React from 'react'
-import './Dashboard.module.css';
+import './Dashboard.css';
 import topImage from './../../assets/top-img.png';
 
 export default function Dashboard() {
